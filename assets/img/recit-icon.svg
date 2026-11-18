@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="512" height="512">
+  <!-- Recit app icon (the area launchers show of the 108 x 108 adaptive icon). -->
+  <rect width="108" height="108" fill="#141A26"/>
+  <path d="M40 36H35Q31 36 31 40V68Q31 72 35 72H40M68 36H73Q77 36 77 40V68Q77 72 73 72H68" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="54" cy="54" r="11" fill="#FF5A4E"/>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kishors316.github.io/recit/sitemap.xml
