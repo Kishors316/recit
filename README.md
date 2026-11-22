@@ -32,7 +32,7 @@ assets/css/style.css  All styles (colours and sizes are variables at the top)
 assets/js/main.js     Menu, scroll effects, screenshot buttons, support email (settings at the top)
 assets/img/         Logo (recit-icon.svg), icons (icons.svg), screenshots, social image
 assets/fonts/       Manrope web fonts and their licence (SIL OFL)
-robots.txt, sitemap.xml, favicon.*, apple-touch-icon.png, .nojekyll
+app-ads.txt (Start.io), robots.txt, sitemap.xml, favicon.*, apple-touch-icon.png, .nojekyll
 ```
 
 Every page works without JavaScript; the script only adds the menu, animations and the email link.
@@ -64,10 +64,11 @@ http://localhost:8000/recit/. (The custom 404 page only works on GitHub Pages.)
 
 ## Notes
 
-- **app-ads.txt:** ad networks look for it at the root of the developer website's domain
-  (`https://kishors316.github.io/app-ads.txt`), not inside `/recit/`. If you list this site as the
-  app's website in Play, publish the file from a repository named `Kishors316.github.io`, or use a
-  custom domain for this site with `app-ads.txt` in this repository's root.
+- **app-ads.txt:** this repository keeps a copy (from Start.io's portal) at `/recit/app-ads.txt`,
+  but ad crawlers only read it at the root of the domain, `https://kishors316.github.io/app-ads.txt`.
+  That address is served by a repository named `Kishors316.github.io`; put the same file there
+  whenever Start.io's list changes. With a custom domain for this site, this repository's copy would
+  be at the root and become the live one.
 - **Custom domain:** add it under Settings → Pages → Custom domain. Then update the absolute
   addresses in the `<head>` of each page, `robots.txt`, `sitemap.xml`, and the `/recit/` paths in
   `404.html`.
